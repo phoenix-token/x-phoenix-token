@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "./compile.sh",
+    "deploy": "./compile.sh && node ./script/01_deploy_token.js"
+  },
+  "dependencies": {
+    "near-api-js": "^0.44.2"
+  }
+}
